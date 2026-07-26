@@ -1,0 +1,9 @@
+package com.example.watertracker.data
+
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
+@Database(entities = [WaterLog::class, Updated::class], version = 1, exportSchema = false)
+abstract class AppDatabase : RoomDatabase() {
+    abstract fun waterlogDao(): WaterLogDao
+}

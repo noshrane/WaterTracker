@@ -1,0 +1,4 @@
+- `[x]` Implement `syncWithDatabase` in `MainApplication.kt`
+- `[x]` Refactor `MainActivity.kt` to use `syncWithDatabase` in `onResume`
+- `[x]` Refactor `LogActivity.kt` to use `syncWithDatabase` in `onResume`
+- `[x]` Verify the changes
